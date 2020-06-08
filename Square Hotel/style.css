@@ -1,82 +1,92 @@
-*{
-	box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
-:root{
-	--background_color_one: #fffafa;
-	--background_color_two: #fffff0;
-	--header_color_one: #808052;
-	--footer_color_one: #333333;
-
+:root {
+    --background_color_one: #fffafa;
+    --background_color_two: #fffff0;
+    --header_color_one: #808052;
+    --footer_color_one: #333333;
 }
 
-html, body {
-	height: 100%;
-	width: auto;
+html,
+body {
+    height: 100%;
+    width: auto;
 }
 
-body{
-	margin :0%;
-	background-color: var(--background_color_one);
+body {
+    margin: 0%;
+    font-family: Playfair Display, Arial, sans-serif;
+    background-color: var(--background_color_one);
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper {
+    height: max-width: 100%;
+    display: block;
 }
 
 
 }
-
-.img1{
-	display: flex;
-	max-height: 22.97%;
-	max-width: 38.82%;
-	margin-left: 6.46%;
-	margin-top: 82px;
+.img1 {
+    display: flex;
+    max-height: 22.97%;
+    max-width: 38.82%;
+    margin-left: 6.46%;
+    margin-top: 82px;
 }
-
-.img2{
-	height: 22.97%;
-	width: 38.82%;
-	margin-right: 54.72%;
+.img2 {
+    height: 22.97%;
+    width: 38.82%;
+    margin-right: 54.72%;
 }
-
-.img3{
-	height: 22.97%;
-	width: 38.82%;
-	margin-left: 6.46%;
+.img3 {
+    height: 22.97%;
+    width: 38.82%;
+    margin-left: 6.46%;
 }
-
-.img4{
-	height: 22.97%;
-	width: 38.82%;
-	margin-right: 54.72%;
+.img4 {
+    height: 22.97%;
+    width: 38.82%;
+    margin-right: 54.72%;
 }
-
 .row1 {
-  display: flex;
-  margin-top: 82px;
-  margin-left: 93px;
-  margin-right: 93px;
+    display: flex;
+    margin-top: 82px;
+    margin-left: 93px;
+    margin-right: 93px;
 }
-
 .row2 {
-  display: flex;
-  margin-top: 122px;
-  margin-left: 93px;
-  margin-right: 93px;
+    display: flex;
+    margin-top: 122px;
+    margin-left: 93px;
+    margin-right: 93px;
 }
 
 /* Create three equal columns that sits next to each other */
 .column {
-  flex: 33.33%;
-  padding: 5px;
+    flex: 33.33%;
+    padding: 5px;
 }
 .titlerow1 {
-  display: flex;
-  margin-top: 0px;
-  margin-left: 93px;
-  margin-right: 93px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 93px;
+    margin-right: 93px;
 }
 .Detailrow1 {
-  display: flex;
-  margin-top: 20px;
-  margin-left: 93px;
-  margin-right: 93px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 93px;
+    margin-right: 93px;
 }
