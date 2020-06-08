@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+
+:root{
+	--background_color_one: #fffafa;
+	--background_color_two: #fffff0;
+	--header_color_one: #808052;
+	--footer_color_one: #333333;
+
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	margin :0%;
+	background-color: var(--background_color_one);
+}
+
+
+.bottomheader{
+	position: relative;
+	width: 100%;
+	height: 164px;
+	bottom: 0px;
+	border: 1px;
+	background-color: var(--background_color_two);
+}
+
+.topheader{
+	width: 100%;
+	height: 300px;
+	left: 0%;
+	top: 0%;
+	background-color: var(--header_color_one);
+}
+
+.maincontent{
+	width: 100%;
+	height: 1528px;
+	border: 1px;
+	background-color: var(--background_color_one);
+}
+
+.img1{
+	height: 22.97%;
+	width: 38.82%;
+	margin-left: 6.46%;
+	margin-top: 82px;
+}
+
+.img2{
+	height: 22.97%;
+	width: 38.82%;
+	margin-right: 54.72%;
+}
+
+.img3{
+	height: 22.97%;
+	width: 38.82%;
+	margin-left: 6.46%;
+}
+
+.img4{
+	height: 22.97%;
+	width: 38.82%;
+	margin-right: 54.72%;
+}
+
+.footer{
+	position: relative;
+	height: 360px;
+	background-color: var(--footer_color_one);
+	bottom: 0%;
+}
+
+.row {
+  display: flex;
+  margin-top: 82px;
+  margin-left: 93px;
+  margin-right: 93px;
+}
+
+.row2 {
+  display: flex;
+  margin-top: 244px;
+  margin-left: 93px;
+  margin-right: 93px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
