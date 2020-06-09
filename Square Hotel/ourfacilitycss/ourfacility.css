@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.facilities-and-services {
+  width: 100vw;
+}
+.facilities-and-services-title {
+  background-color: #808052;
+  color: #fffff0;
+  text-align: center;
+  padding: 2rem 0;
+}
+.facilities-and-services-container {
+  padding: 3rem 2rem;
+}
+.facilities-and-services-content {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.facilities-and-services-picture {
+  width: 100%;
+}
+.facilities-and-services-picture-title {
+  color: #808052;
+}
+.facilities-and-services-picture-description {
+  color: #333333;
+}
+.others {
+  width: 45%;
+  display: inline-block;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .facilities-and-services-title {
+    text-align: left;
+    padding-left: 4rem;
+  }
+  .facilities-and-services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .facilities-and-services-content {
+    width: 45%;
+    text-align: center;
+  }
+  .left {
+    text-align: right;
+  }
+  .right {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .facilities-and-services-content {
+    width: 40%;
+    text-align: center;
+  }
+  .others {
+    width: 40%;
+  }
+}
